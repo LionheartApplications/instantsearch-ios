@@ -1,3 +1,23 @@
+## Lionheart's Fork Readme:
+
+In order to update the Algolia's instant-search-ios fork to the latest version, you need to:
+
+1. Pull all updates from the original repo.
+
+2. Checkout locally this repo with `git clone`.
+
+3. Open terminal, and cd into that directory
+`cd instantsearch-ios`
+
+4.  Generate XCode project for InstantSearch from their Swift Package
+`swift package generate-xcodeproj`
+
+We need their swift client to come with XCode project, in order to link it back in our workspace. We need this fork, only to make our own XCode project file.
+
+-------------------------------------
+
+## Algolia's Readme:
+
 ![InstantSearch iOS](./Resources/instantsearch-banner.png)
 
 [![Pod Version](http://img.shields.io/cocoapods/v/InstantSearch.svg?style=flat)](https://github.com/algolia/instantsearch-ios/)
